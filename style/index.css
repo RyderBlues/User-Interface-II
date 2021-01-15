@@ -1,1 +1,164 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET ABOVE ------------------------------ */
+
+/* Main Body Styling ---------------------------- */
+body {
+    background-color: #312C51;
+    color:#f0C38E;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    font-size: 100px;
+}
+
+.navBar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem {
+    border: 2px solid #f0C38E;
+    width: 90px;
+    height: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #f0C38E;
+    transition:.3s;
+    font-family: 'Comfortaa';
+}
+
+.navItem:hover {
+    background-color: #48426d;
+    color: #cfbeff;
+    border: 2px solid #cebafc;
+}
+
+.aboutMe {
+    margin: 30px;
+    font-family: 'Comfortaa';
+    text-align: center;
+}
+
+.mainImg {
+    display:flex;
+    background: url(https://picsum.photos/id/1018/1500/500);
+    box-sizing:border-box;
+    width: 100%;
+    height: 400px;
+    border: 2px solid #f0C38E;
+}
+
+.projects {
+    display:flex;
+}
+
+.projImg1 {
+    width: 15%;
+    height: 400px;
+    border: 2px solid #f0C38E;
+    margin: 1%;
+    background:url(https://picsum.photos/400/500)
+}
+.projImg2 {
+    width: 15%;
+    height: 400px;
+    border: 2px solid #f0C38E;
+    margin: 1%;
+    background:url(https://picsum.photos/400/500)
+}
+.projImg3 {
+    width: 15%;
+    height: 400px;
+    border: 2px solid #f0C38E;
+    margin: 1%;
+    background:url(https://picsum.photos/400)
+}
+.projImg4 {
+    width: 15%;
+    height: 400px;
+    border: 2px solid #f0C38E;
+    margin: 1%;
+    background:url(https://picsum.photos/400)
+}
+
+.projText {
+    width: 15%;
+    height: 75px;
+    margin: 10%;
+    text-align:center;
+    font-family: 'Comfortaa';
+    line-height: 30px;
+}
+
+footer div {
+    height: 10%;
+    width: 100%;
+    border: 2px solid #2e2446;
+    background-color: #2e2446;
+}
+
+.navBarFooter {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4%;
+}
+
+div nav a {
+    background-color: rgb(122, 86, 156);
+}
